@@ -1,0 +1,31 @@
+.container {
+  background-color: #87CEFA;
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-top: 0;
+} 
+
+.game-container {
+  background-color: #87CEFA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  max-width: 100%;
+  padding: 5px;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: calc(100vh - 105px);
+}
